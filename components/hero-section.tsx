@@ -137,7 +137,7 @@ export function HeroSection() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 sm:gap-3 z-90">
+      <div className="absolute bottom-6 sm:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 sm:gap-3 z-80">
         <span className="text-[#FFD700] text-xs tracking-widest font-bold">↓ SCROLL ↓</span>
         <div className="w-1 h-10 sm:h-12 bg-gradient-to-b from-[#FFD700] via-[#0099FF] to-transparent" />
       </div>

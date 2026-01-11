@@ -14,7 +14,7 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#001A4D]/98 backdrop-blur-lg border-b-3 sm:border-b-4 border-[#0099FF]">
+    <nav className="fixed top-0 left-0 right-0 z-90 bg-[#001A4D]/98 backdrop-blur-lg border-b-3 sm:border-b-4 border-[#0099FF]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 group flex-shrink-0">

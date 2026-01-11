@@ -1,6 +1,7 @@
 import { GeometricBackground } from "@/components/geomentric-background";
 import { HeroSection } from "@/components/hero-section";
 import { Navigation } from "@/components/navigation";
+import { ProjectsSection } from "@/components/project-section";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <GeometricBackground/>
       <Navigation/>
       <HeroSection/>
+      <ProjectsSection/>
     </main>    
   );
 }
