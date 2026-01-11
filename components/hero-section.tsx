@@ -109,10 +109,10 @@ export function HeroSection() {
               {/* Image container */}
               <div className="relative w-full h-full bg-[#002D66] overflow-hidden border-4 border-[#FFD700]">
                 <Image
-                  src="/professional-portrait-silhouette-dark-blue-backgro.jpg"
+                  src="/portrait6.png"
                   alt="Portrait"
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#001A4D]/80 via-transparent to-transparent" />

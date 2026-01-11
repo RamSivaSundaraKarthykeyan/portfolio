@@ -23,10 +23,10 @@ export function Navigation() {
               <div className="absolute -inset-1 bg-[#FFD700] -skew-x-12" />
               {/* Inner content */}
               <div className="relative w-10 h-10 sm:w-12 sm:h-12 bg-[#0099FF] flex items-center justify-center -skew-x-12">
-                <span className="text-[#FFD700] font-black text-sm sm:text-lg skew-x-12">P3</span>
+                <span className="text-[#FFD700] font-black text-lg sm:text-lg skew-x-12">P</span>
               </div>
             </div>
-            <span className="text-[#FFD700] font-bold tracking-[0.2em] hidden sm:block text-sm sm:text-lg">CODE</span>
+            <span className="text-[#FFD700] font-bold tracking-[0.2em] hidden sm:block text-sm sm:text-lg">ORTFOLIO.</span>
           </Link>
 
           {/* Desktop Navigation */}
