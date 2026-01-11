@@ -1,7 +1,5 @@
 @import "tailwindcss";
-@import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
 
 /* Persona 3 Theme - Exact Color Palette */
 :root {

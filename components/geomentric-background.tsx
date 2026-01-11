@@ -26,7 +26,9 @@ export function GeometricBackground() {
           <circle cx="100" cy="100" r="80" fill="none" stroke="#0099FF" strokeWidth="1" />
           <circle cx="100" cy="100" r="60" fill="none" stroke="#0099FF" strokeWidth="1" />
           <circle cx="100" cy="100" r="40" fill="none" stroke="#0099FF" strokeWidth="1" />
-          </svg>
+          <line x1="20" y1="100" x2="180" y2="100" stroke="#FFD700" strokeWidth="1" />
+          <line x1="100" y1="20" x2="100" y2="180" stroke="#FFD700" strokeWidth="1" />
+        </svg>
       </div>
     </div>
   )
